@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Venda de panelas e cigarros eletrônicos com as melhores ofertas e produtos de alta qualidade.">
+    <title>Loja Minimalista - Panelas e Cigarros Eletrônicos</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+            color: #333;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #4CAF50;
+        }
+        nav {
+            background-color: #f8f8f8;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .offers, .products, .contact {
+            margin: 30px 0;
+        }
+        .offers h2, .products h2, .contact h2 {
+            font-size: 2em;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+        .grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .grid-item {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+            transition: transform 0.3s;
+        }
+        .grid-item:hover {
+            transform: scale(1.05);
+        }
+        .grid-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .grid {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Loja Minimalista</h1>
+    <p>Panelas e Cigarros Eletrônicos com Ofertas Imperdíveis!</p>
+</header>
+
+<nav>
+    <a href="#offers">Ofertas</a>
+    <a href="#products">Produtos</a>
+    <a href="#contact">Contato</a>
+</nav>
+
+<section id="offers" class="offers">
+    <h2>Ofertas</h2>
+    <div class="grid">
+        <div class="grid-item">
+            <img src="https://via.placeholder.com/300" alt="Panela de Inox">
+            <h3>Panela de Inox</h3>
+            <p>De <s>R$ 199,90</s> por <strong>R$ 149,90</strong></p>
+        </div>
+        <div class="grid-item">
+            <img src="https://via.placeholder.com/300" alt="Cigarro Eletrônico - Modelo A">
+            <h3>Cigarro Eletrônico - Modelo A</h3>
+            <p>De <s>R$ 299,90</s> por <strong>R$ 199,90</strong></p>
+        </div>
+        <div class="grid-item">
+            <img src="https://via.placeholder.com/300" alt="Conjunto de Panelas Antiaderente">
+            <h3>Conjunto de Panelas Antiaderente</h3>
+            <p>De <s>R$ 349,90</s> por <strong>R$ 249,90</strong></p>
+        </div>
+    </div>
+</section>
+
+<section id="products" class="products">
+    <h2>Produtos</h2>
+    <div class="grid">
+        <div class="grid-item">
+            <img src="https://via.placeholder.com/300" alt="Panela de Ferro Fundido">
+            <h3>Panela de Ferro Fundido</h3>
+            <p>Ideal para cozimento lento e uniforme. Preço: R$ 189,90</p>
+        </div>
+        <div class="grid-item">
+            <img src="https://via.placeholder.com/300" alt="Cigarro Eletrônico - Modelo B">
+            <h3>Cigarro Eletrônico - Modelo B</h3>
+            <p>Compacto e eficiente. Preço: R$ 259,90</p>
+        </div>
+        <div class="grid-item">
+            <img src="https://via.placeholder.com/300" alt="Frigideira Antiaderente">
+            <h3>Frigideira Antiaderente</h3>
+            <p>Perfeita para frituras rápidas. Preço: R$ 79,90</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contato</h2>
+    <p>Entre em contato para mais informações ou para fazer um pedido:</p>
+    <p>Email: <a href="mailto:contato@lojaminimalista.com">contato@lojaminimalista.com</a></p>
+    <p>Telefone: (11) 99999-9999</p>
+    <p>Endereço: Rua Exemplo, 123 - São Paulo, SP</p>
+</section>
+
+<footer>
+    <p>© 2024 Loja Minimalista. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
